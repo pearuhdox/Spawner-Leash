@@ -11,6 +11,9 @@ This pack also allows for mapmakers to place spawners in structural and interior
 You can adjust the variables of this pack by changing the fake players sl.var tag.
 
 The following fake players can have their sl.var scores changed to modify the parameters of this datapack.
+
 `$time` - The number of ticks it will take a mob to forcibly despawn. It must have this amount of time with no target (resetting to 0 if it finds a target).
+
+By default `$time` is set to 900 (900 ticks or 45 seconds.)
 
 Only mobs with the tag `sl.can_despawn` can be despawned by this datapack. This means that default vanilla natural mobs and natural spawners are unaffected by this system.
